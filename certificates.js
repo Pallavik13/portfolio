@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
     project.addEventListener("click", () => {
       const img = project.querySelector("img").src;
       const title = project.querySelector("h4").textContent;
-      const description = descriptions[title] || "Description not available.";
+      const description = descriptions[title] || "";
       const images = projectImages[title] || [];
 
       projectImage.style.backgroundImage = `url(${img})`;
