@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Full stack projects</title>
+    <link rel="icon" type="image/x-icon" href="Logo.jpg" />
+    <link rel="stylesheet" href="./separateStyles.css" />
+    <style>
+      .project-images-container {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px 0;
+      }
+
+      .project-images-container img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainHeader">
+      <header class="header">
+        <a href="./index.html" class="logo">Pallavi Karmanchi</a>
+        <nav class="navbar">
+          <a href="./index.html">HOME</a>
+          <a href="./index.html">ABOUT</a>
+          <a href="./index.html">PROJECTS</a>
+          <a href="./index.html">CONTACT</a>
+        </nav>
+      </header>
+    </div>
+    <div class="appContent">
+      <div class="appContainer">
+        <div class="project">
+          <img src="Card reveal.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Information Cards</h4>
+            <p>Cards that display information when clicked.</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="shopping list check.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Shopping list manager</h4>
+            <p>A to-do list for managing the shopping items</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="change state.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Basic state changes</h4>
+            <p>
+              A project which exhibits state changes using components in React
+            </p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="Create a recipe.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Recipe App</h4>
+            <p>A recipe app to view the recipe based on ingredients</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-details">
+      <div class="project-image"></div>
+      <div class="project-info-container">
+        <div class="project-info">
+          <h2></h2>
+          <p></p>
+          <div class="project-images-container"></div>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="fullstack.js"></script>
+  </body>
+</html>

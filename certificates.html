@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="Logo.jpg" />
+    <title>Certificates</title>
+    <link rel="icon" type="image/x-icon" href="Logo.jpg" />
+    <link rel="stylesheet" href="./separateStyles.css" />
+    <style>
+      .appContainer {
+        gap: 100px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+      }
+      .project-images-container {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 10px;
+        padding: 10px 0;
+      }
+      .project-images-container img {
+        width: 60%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainHeader">
+      <header class="header">
+        <a href="./index.html" class="logo">Pallavi Karmanchi</a>
+        <nav class="navbar">
+          <a href="./index.html">HOME</a>
+          <a href="./index.html">ABOUT</a>
+          <a href="./index.html">PROJECTS</a>
+          <a href="./index.html">CONTACT</a>
+        </nav>
+      </header>
+    </div>
+    <div class="appContent">
+      <div class="appContainer">
+        <div class="project">
+          <img src="clanguage.png" alt="" />
+          <div class="project-layer">
+            <h4>C Language</h4>
+            <p>from Manipal Institute of Computer Education</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="information-technology.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Information Technology</h4>
+            <p>from Manipal Institute of Computer Education</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="MERN.jpg" alt="" />
+          <div class="project-layer">
+            <h4>MERN Full Stack</h4>
+            <p>certificate from Udemy</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="dataVisualisation.png" alt="" />
+          <div class="project-layer">
+            <h4>Data Visualization</h4>
+            <p>Empowering Business with Effective Insights from TATA Group</p>
+          </div>
+        </div>
+        <div class="project">
+          <img src="dataanalytics.jpg" alt="" />
+          <div class="project-layer">
+            <h4>Data Analytics</h4>
+            <p>certificate from Trainity</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="project-details">
+      <div class="project-image"></div>
+      <div class="project-info-container">
+        <div class="project-info">
+          <h2></h2>
+          <p></p>
+          <div class="project-images-container"></div>
+          <button class="close-btn">Close</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="certificates.js"></script>
+  </body>
+</html>
